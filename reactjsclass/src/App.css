@@ -1,0 +1,504 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.hen{
+  min-height: 100vh;
+  background-repeat: no-repeat;
+  width: 100%;
+  background-size: cover;
+  background-position:center;
+  
+}
+
+a {
+  background-color:none;
+  color: orange;
+  font-weight: 700;
+  text-decoration: none;
+  
+
+}
+.nav-bar ul li:hover{
+  background-color: white;
+  border-radius: 10px;
+}
+
+.nav-bar img{
+  width: 25%;
+  animation: head infinite 3s linear;
+  
+}
+@keyframes head{
+  from{
+    transform:rotate(0deg);
+  }
+
+  to{
+    transform:rotate(360deg);
+  }
+}
+#btn {
+  display: none;
+}
+.nav-bar{
+  background-color: #2B1265;
+  width: 100%;
+  display: flex;
+  /* justify-content: space-between; */
+  padding: 10px;
+  
+}
+
+.show{
+  font-size: 18px;
+  list-style-type: none;
+  /* margin-left: 15px; */
+  padding: 5px;
+  
+}
+.show li{
+  display: inline;
+  margin-left: 10px;
+  padding: 5px;
+}
+.cow h1 {
+  color: black;
+  text-align: center;
+  font-weight: 800;
+  font-size: 40px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #231557 0%,
+    #44107a 29%,
+    #ff1361 67%,
+    #fff800 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 5s linear infinite;
+  display: inline-block;
+  font-size: 50px;
+}
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+.cow p{
+  color: black;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 23px;
+  line-height: 40px;
+  margin-top: 10px;
+  text-align: justify;
+ 
+}
+.cow2{
+  display: flex;
+ flex-direction: row;
+ justify-content: center;
+ align-items: center;
+ padding: 20px;
+ width: 100%;
+}
+.tiger img {
+  -webkit-animation: mover 1s infinite  alternate;
+  animation: mover 0.5s infinite  alternate;
+}
+.tiger img {
+  -webkit-animation: mover 1s infinite  alternate;
+  animation: mover 0.5s infinite  alternate;
+}
+@-webkit-keyframes mover {
+  0% { transform: translateY(0); }
+  100% { transform: translateY(-10px); }
+}
+@keyframes mover {
+  0% { transform: translateY(0); }
+  100% { transform: translateY(-10px); }
+}
+
+.tiger img{
+  width: 100%;
+  border-radius: 50%;
+  
+}
+.cow{
+  width: 100%;
+  padding: 50px;
+  
+  
+}
+
+/* .cow h1{
+  text-align: center;
+  animation: men 1s ease infinite;
+}
+@keyframes men {
+  0% {
+    transform: scale(1, 1);
+  }
+  50% {
+    transform: scale(1.5, 1.5);
+  }
+  100% {
+    transform: scale(1, 1);
+  }
+} */
+.met{
+  background-image: url("/public/three-heavens-according-to-the-bible.jpg");
+  background-color: rgb(85, 82, 82);
+  width: 100%;
+}
+.metdiv{
+  background-color: white;
+  width: 100%;
+  height: 50vh;
+  margin: auto ;
+  border: 10px solid #2B1265;
+  
+	
+}
+.jin h1{
+  color: red;
+  font-size: 30px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  line-height: 10px;
+  padding: 20px;
+  opacity: 0.9;
+  animation: men 1s ease infinite;
+
+}
+.jin p{
+  font-family: Arial, Helvetica, sans-serif;
+  opacity: 0.7;
+  text-align: center;
+  font-size: 25px;
+  /* line-height: 10px; */
+}
+.jin{
+  text-align: center;
+  padding: 50px;
+}
+.mission{
+  background-color: blueviolet;
+  width: 100%;
+}
+.jex{
+  width: 100%;
+  background-color: lightcyan;
+  border-radius: 100px;
+  margin: auto;
+  padding: 30px;
+  
+  
+}
+.jex h1{
+  text-align: center;
+  text-decoration: underline;
+  color: red;
+  font-size: 40px;
+  
+}
+.jex p{
+  text-align: center;
+  font-size: 25px;
+}
+.jam{
+  width: 100%;
+  background-color: rgb(221, 224, 226);
+  margin-top: 30px;
+  border-radius: 10px;
+  padding: 50px;
+  
+}
+
+.jam h1{
+  color: red;
+  text-decoration: underline;
+  text-align: center;
+  font-size: 25px;
+  
+}
+
+.jam p{
+  text-align: center;
+  font-size: 25px;
+}
+.kam{
+  background-color: orchid;
+  width: 100%;
+  border-top-right-radius: 10%;
+  border-top-left-radius: 10%;
+  margin-top: 30px;
+  border: 30px solid blue;
+
+}
+.kam h1{
+  text-align: center;
+  font-size: 30px;
+  color: rgb(20, 2, 19);
+  text-decoration: underline;
+  line-height: 80px;
+}
+.kam h3{
+  /* text-align: center; */
+  padding: 10px;
+  margin-left: 50px;
+  
+}
+.kam p{
+  /* padding: 3rem; */
+  text-align: start;
+  text-align: start;
+  margin-left: 100px;
+ 
+}
+input{
+  width: 100%;
+  height: 8vh;
+  border-color: none;
+  padding: 25px;
+  margin-top: 10px;
+}
+
+textarea{
+  width: 100%;
+  margin-top: 10px;
+  padding: 20px;
+}
+.last{
+  background-color: darkviolet;
+}
+.last button{
+  padding: 10px;
+  border-radius: 10px;
+  transition: all .5s;
+  background-color: black;
+  color: chartreuse;
+  border: 2px solid white;
+  font-size: larger;
+  background-color: transparent;
+  margin-top: 20px;
+  cursor: pointer;
+}
+.last button:hover{
+  background-color: orange;
+  color: red;
+
+}
+.fan h1{
+text-align: center;
+color: black;
+text-decoration: underline;
+font-size: 30px;
+line-height: 50px;
+
+}
+.fan p{
+  text-align: center;
+  color: black;
+  font-size: 18px;
+}
+.both{
+  display: flex;
+  justify-content: space-around;
+  padding: 30px;
+  
+
+}
+
+  
+
+.attribution a{
+  text-align: center;
+  
+
+}
+.fan{
+  padding: 50px;
+  line-height: 25px;
+  
+}
+
+@media screen and (max-width: 900px) {
+  .cow2{
+    flex-direction: column;
+    gap: 50px;
+  }
+
+  .cow{
+    padding: 0;
+    width: 100%;
+  }
+  input{
+    width: 150%;
+  }
+  textarea{
+    width: 150%;
+  }
+  .game{
+    margin-left: 5px;
+  }
+  .fan h1{
+    font-size: 25px;
+    color: #fff800;
+    margin-top: 30px;
+  }
+  .fan p{
+    font-size: 18px;
+    color: beige;
+  }
+  .fan{
+    margin-left: 30px;
+    padding: 50px;
+    margin-top: -50px;
+  }
+  #btn{
+    display:block;
+    padding: 20px ;
+    border-radius: 10px;
+    background-color: transparent;
+    border: 2px solid black;
+    cursor: pointer;
+  }
+  #btn:hover{
+    background-color: orange;
+    border: 2px solid blue;
+  }
+  .show{
+    display: none;
+  }
+  .toggle{
+    display: flex;
+    background-color: black;
+    color: red;
+    width: 100%;
+    height: 0;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    transition: ease-in-out 1s;
+
+
+  }
+  .mobile{
+    height: 30vh;
+    transition: ease-in-out 1s;
+    border-bottom-right-radius: 50px;
+}
+  .toggle li{
+    list-style: none;
+    cursor: pointer;
+    font-size: 20px;
+  }
+  .gen{
+    display: flex;
+    flex-direction: column;
+  }
+  .gal1 {
+    display: flex;
+    flex-direction: column;
+  }
+  .gal2{
+    display: flex;
+    flex-direction: column;
+  }
+  .both{
+    display: flex;
+    flex-direction: column;
+  }
+  .game input{
+    width: 100%;
+  }
+  .game textarea{
+    width: 100%;
+  }
+  .last button{
+    padding: 5px;
+    color: orange;
+    font-size: large;
+    cursor: pointer;
+
+  }
+  
+}
+
+.books{
+  background-color: wheat;
+  width: 100%;
+  
+}
+.gen img{
+  padding: 50px;
+  height: 80vh;
+}
+
+.gen{
+  display: flex;
+  justify-content: space-around;
+  padding: 50px;
+}
+.toggle{
+  display: none;
+}
+.lab p{
+  text-align: justify;
+}
+.lab button{
+  padding: 20px;
+  border-radius: 50px;
+  margin-top: 20px;
+  cursor: pointer;
+  background-color: coral;
+
+}
+
+footer{
+  width: 100%;
+  background-color: grey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+footer p {
+  animation-name: rightToLeft;
+  animation-duration: 4.5s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+@keyframes rightToLeft {
+  0% {
+    transform: translateX(50px);
+  }
+  100% {
+    transform: translateX(-60px);
+  }
+}
+
+.gal1 {
+  display: flex;
+  justify-content: center;
+
+}
+.gal2 {
+  display: flex;
+  justify-content: center;
+}
+.Gal img{
+  height: 100vh;
+}
